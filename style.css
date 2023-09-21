@@ -1,0 +1,42 @@
+.hero {
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10em;
+    color: white;
+}
+
+.title {
+    padding-top: 10em;
+}
+
+.text {
+    text-shadow: 0 0 8px black;
+}
+
+.desktop-hero-img {
+    z-index: 1;
+}
+
+.header {
+    z-index: 2;
+}
+
+.bg-grey {
+    background-color: rgb(219, 219, 219);
+}
+
+@media(min-width: 767px) {
+    .hero {
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 5em;
+    }
+
+    .title {
+        padding-top: 5em;
+        padding-left: 3em;
+    }
+}
